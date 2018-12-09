@@ -1,0 +1,46 @@
+sudo -u postgres psql
+
+
+
+
+Setting a password for the postgres user
+On Linux systems, there is no default password set.
+
+To set the default password:
+
+Run the psql command from the postgres user account:
+
+sudo -u postgres psql postgres
+Set the password:
+
+\password postgres
+Enter a password.
+
+Close psql.
+
+\q
+
+
+
+some good webpages for postgres: 
+
+http://suite.opengeo.org/docs/latest/dataadmin/pgGettingStarted/firstconnect.html
+
+listing tables etc 
+
+https://chartio.com/resources/tutorials/how-to-list-databases-and-tables-in-postgresql-using-psql/
+
+other good stuff 
+
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04
+
+python package for postgeress
+
+https://wiki.postgresql.org/wiki/Using_psycopg2_with_PostgreSQL
+
+
+connecting to database from pycharm 
+
+https://www.jetbrains.com/help/pycharm/connecting-to-a-database.html
+
+
